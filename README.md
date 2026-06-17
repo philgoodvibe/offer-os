@@ -1,8 +1,12 @@
 # Offer OS
 
-A **numbered, sequential family of marketing skills** that walk any business from a raw problem to a live launch — the same order a business is actually built. Each skill is one station on the assembly line; the numbers are the build order.
+A **numbered family of marketing skills** covering the **complete funnel** — from making attention, through building the offer in the order a business is actually built, to closing the sale. Stations **1–7** build the offer; stations **8** and **9** are the **attract** and **convert** bookends that wrap it.
 
 ```
+        ── ATTRACT (top of funnel) ──
+8  Build the Content Engine  ← an organic engine that makes attention, not random posts
+
+        ── THE OFFER (build sequence) ──
 1  Define the Problem        ← become the only answer
 2  Position the Opportunity  ← sell desire, not "improvement"
 3  Build Your Frameworks     ← turn knowledge into named methods + a product ladder
@@ -10,9 +14,12 @@ A **numbered, sequential family of marketing skills** that walk any business fro
 5  Build the Funnel          ← pick the flavor + make the math work
 6  Add the Software Layer    ← a single-feature tool / software-as-bonus
 7  Launch the Campaign       ← one-to-many promo with post-pitch follow-on bonuses
+
+        ── CONVERT (bottom of funnel) ──
+9  Close with Emotion        ← move the buyer through the beliefs that precede a yes
 ```
 
-Plus **`/marketing-360`** — a cross-cutting audit that scores all 7 stations on your current business and tells you **where the chain breaks** (your real bottleneck).
+Plus **`/marketing-360`** — a complete full-funnel audit that scores all 9 stations (in funnel order **8 → 1–7 → 9**) on your current business and tells you **where the chain breaks** (your real bottleneck).
 
 ## Why it's built this way (portable across businesses)
 
@@ -23,7 +30,7 @@ Plus **`/marketing-360`** — a cross-cutting audit that scores all 7 stations o
 
 ## Naming convention
 
-`offer-os:<n>-<verb-noun>` — the namespace marks the family, the number marks the build step, and every skill's description ends with *"Step N of 7 in the Offer OS build sequence."* so the model knows what comes before and after.
+`offer-os:<n>-<verb-noun>` — the namespace marks the family and the number marks the station. Stations **1–7** are the offer build sequence (each description says *"Step N of 7"*); stations **8** (attract) and **9** (convert) are the funnel bookends that wrap the build.
 
 ## Install & use
 
@@ -34,8 +41,9 @@ Plus **`/marketing-360`** — a cross-cutting audit that scores all 7 stations o
 
 ## Status
 
-All 7 stations built, each with **build + audit modes** and a copy-paste AI prompt:
+All 9 stations built, each with **build + audit modes** and a copy-paste AI prompt:
 
+- ✅ `8-build-the-content-engine` — **attract bookend**: problem-path topics → usable scripting → test-and-scale loop
 - ✅ `1-define-the-problem` — Problem Articulation + 11 worked examples
 - ✅ `2-position-the-opportunity` — the Opportunity Switch (parking lot → fatal flaw → 5 tests)
 - ✅ `3-build-your-frameworks` — name your method → product cascade
@@ -43,7 +51,8 @@ All 7 stations built, each with **build + audit modes** and a copy-paste AI prom
 - ✅ `5-build-the-funnel` — the 5 flavors + the math + high-ticket doc
 - ✅ `6-add-the-software-layer` — single-feature tool / software-as-bonus
 - ✅ `7-launch-the-campaign` — one-to-many launch w/ follow-on bonuses (+ orchestrator)
-- ✅ `/marketing-360` — cross-cutting audit across all 7 stations
+- ✅ `9-close-with-emotion` — **convert bookend**: the two-phase emotional journey to a yes
+- ✅ `/marketing-360` — complete full-funnel audit across all 9 stations
 
 ## License
 
