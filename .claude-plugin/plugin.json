@@ -1,0 +1,8 @@
+{
+  "name": "offer-os",
+  "version": "0.2.0",
+  "description": "Offer OS — a numbered, sequential family of marketing skills that walk a business from problem to launch (1 define the problem -> 2 position the opportunity -> 3 build your frameworks -> 4 build the offer -> 5 build the funnel -> 6 add the software layer -> 7 launch the campaign). Config-driven and portable across businesses. Ships the /marketing-360 cross-cutting audit. Distills widely-taught direct-response and offer-design principles into reusable, business-agnostic skills.",
+  "author": { "name": "Phillip Ngo", "url": "https://insight2impactai.com" },
+  "keywords": ["marketing", "offers", "funnels", "positioning", "campaigns", "copywriting"],
+  "license": "UNLICENSED"
+}

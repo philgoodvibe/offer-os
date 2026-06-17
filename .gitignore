@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+business-profile.yaml
+outputs/
+inputs/
+.env
+.DS_Store

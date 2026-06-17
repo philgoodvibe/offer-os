@@ -1,0 +1,53 @@
+# Offer OS — Business Profile
+# Copy this to `business-profile.yaml` and fill it in. EVERY skill reads from this file,
+# which is what makes the same skills work for any business. Nothing about a specific
+# company is hardcoded in the skills — it all lives here.
+
+business:
+  name: "Acme Coaching"
+  one_liner: "We help new real-estate agents get their first 5 listings."
+  website: "https://example.com"
+
+# Who you serve (be specific — a sub-market beats a market)
+avatar:
+  who: "Newly licensed real-estate agents, 0-18 months in, no database yet"
+  current_state: "Spent thousands on a license + courses, still no listings, doubting the decision"
+  desired_state: "A predictable flow of listing appointments and their first closed deals"
+
+# The single result you promise (Step 1/2 call this 'the destination' — it never changes)
+destination: "Your first 5 listings in 90 days, without cold-calling"
+
+# Price ladder / value ladder (front-end -> mid -> high)
+offers:
+  - { name: "Free: 5-Listings Checklist", price: 0, type: "lead_magnet" }
+  - { name: "First Listing Bootcamp", price: 497, type: "low_ticket" }
+  - { name: "Done-With-You Listing Engine", price: 5000, type: "high_ticket" }
+
+# Every other vehicle your customer could use (Step 2 'parking lot' — list 10+)
+competing_vehicles:
+  - "Cold calling / door knocking"
+  - "Buying Zillow leads"
+  - "Brokerage's generic training"
+  - "Social media gurus' courses"
+  - "Doing nothing / hoping referrals come"
+
+# Proof you can cite (case studies, numbers, testimonials, screenshots)
+proof:
+  - "Maria: 0 -> 3 listings in 6 weeks"
+  - "Avg client books 4 listing appts in month one"
+
+# Voice & brand
+voice:
+  tone: "Direct, encouraging, no hype, plain language"
+  avoid: ["em dashes", "jargon", "fake urgency"]
+  signature_phrases: []
+
+# Channels you actually use
+channels: ["Instagram", "email", "live webinar", "local events"]
+
+# Optional: data sources the skills can pull from (leave blank to run purely from this file)
+data:
+  adapter: "local"            # 'local' (default) or 'brain' (Philgood Brain Supabase)
+  transcripts_dir: "./inputs/transcripts"
+  assets_out_dir: "./outputs"
+  drive_folder_url: ""        # optional, for reference
